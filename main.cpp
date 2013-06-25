@@ -52,8 +52,10 @@ int main(int argc, char** argv)
     //サスケェ
     const auto sasuke = cv::imread("./sasukee.png");
     if(sasuke.empty()){
-	std::cerr << "faild to open SASUKE image file\n"
-		  << "make sure that sasukee.png in this directory" << std::endl;
+	std::cerr << "faild to open SASUKE image file.\n"
+		  << "make sure that sasukee.png in this directory.\n"
+		  << "Try \"make image\" to get image file"
+		  << std::endl;
 	return -1;
     }
     const cv::Mat cropped_sasuke(sasuke,cv::Rect(60,0,393,320));
@@ -71,8 +73,3 @@ int main(int argc, char** argv)
     cv::imshow("result",img);
     cv::waitKey(0);   
 }
-
-
-
-
-
