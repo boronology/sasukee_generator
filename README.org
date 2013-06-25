@@ -24,6 +24,9 @@
 
    というわけでLinuxかMac……が必要と思われます。Cygwinでできるかは人柱待ちです。
 
+** サンプル
+   [[https://raw.github.com/boronology/sasukee_generator/master/sample.png]]
+
 ** ライセンス
    ソースコードはMIT Licenseで提供します。
 
